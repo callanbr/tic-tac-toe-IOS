@@ -12,6 +12,9 @@
 		9D2B95F621248C8A0054EFB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B95F421248C8A0054EFB8 /* Main.storyboard */; };
 		9D2B95F821248C8D0054EFB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B95F721248C8D0054EFB8 /* Assets.xcassets */; };
 		9D2B95FB21248C8D0054EFB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B95F921248C8D0054EFB8 /* LaunchScreen.storyboard */; };
+		9D2B960321248CA70054EFB8 /* Board.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B960221248CA70054EFB8 /* Board.png */; };
+		9D2B960521248CAB0054EFB8 /* Cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B960421248CAB0054EFB8 /* Cross.png */; };
+		9D2B9609212493AE0054EFB8 /* Nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D2B9608212493AE0054EFB8 /* Nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		9D2B95F721248C8D0054EFB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D2B95FA21248C8D0054EFB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D2B95FC21248C8D0054EFB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D2B960221248CA70054EFB8 /* Board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Board.png; sourceTree = "<group>"; };
+		9D2B960421248CAB0054EFB8 /* Cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cross.png; sourceTree = "<group>"; };
+		9D2B9608212493AE0054EFB8 /* Nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		9D2B95EF21248C8A0054EFB8 /* Tic Tac Toe */ = {
 			isa = PBXGroup;
 			children = (
+				9D2B9608212493AE0054EFB8 /* Nought.png */,
+				9D2B960421248CAB0054EFB8 /* Cross.png */,
+				9D2B960221248CA70054EFB8 /* Board.png */,
 				9D2B95F021248C8A0054EFB8 /* AppDelegate.swift */,
 				9D2B95F221248C8A0054EFB8 /* ViewController.swift */,
 				9D2B95F421248C8A0054EFB8 /* Main.storyboard */,
@@ -122,7 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D2B9609212493AE0054EFB8 /* Nought.png in Resources */,
+				9D2B960321248CA70054EFB8 /* Board.png in Resources */,
 				9D2B95FB21248C8D0054EFB8 /* LaunchScreen.storyboard in Resources */,
+				9D2B960521248CAB0054EFB8 /* Cross.png in Resources */,
 				9D2B95F821248C8D0054EFB8 /* Assets.xcassets in Resources */,
 				9D2B95F621248C8A0054EFB8 /* Main.storyboard in Resources */,
 			);
